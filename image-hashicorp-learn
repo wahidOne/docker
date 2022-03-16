@@ -1,0 +1,2 @@
+Create a container named hashicorp-learn using the latest NGINX image from Docker Hub, and preview the container on the Cloud Shell virtual machine over port 80 (HTTP):
+docker run --name hashicorp-learn --detach --publish 8080:80 nginx:latest  <use cloud shell> 
